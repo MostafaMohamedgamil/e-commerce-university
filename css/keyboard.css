@@ -1,0 +1,128 @@
+body {
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar-list li a {
+    margin: 0 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.navbar-list li a:hover {
+    color: red;
+}
+
+.color-nav {
+    background-color: #111111;
+}
+
+
+header ul {
+    margin-right: 30px;
+
+}
+
+header li {
+    margin-left: 10px;
+}
+
+.top {
+    background-image: url(../img/keyboard/up.webp);
+    height: 200px;
+    background-size: 100% 100%;
+
+}
+
+.top h1 {
+    color: #B4B4B5;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.keyboard {
+    margin-top: 90px;
+}
+
+.keyboard img {
+    background-color: black;
+
+
+}
+
+p {
+    color: wheat;
+}
+
+.keyboard .container {
+    margin-right: 40px;
+}
+
+.keyboard .card {
+    transition: all 0.5s;
+}
+
+.keyboard .card:hover {
+    border: 5px solid;
+    border-color: #7A0710;
+}
+
+/* footer */
+footer .links {
+    padding: 30px 0;
+
+}
+
+footer i {
+    color: #5D5D5D;
+    padding: 0 3px;
+}
+
+footer a {
+    transition: all 0.5s;
+}
+
+footer a:hover i {
+    color: red;
+}
+
+footer .about {
+    color: white;
+    position: relative;
+}
+
+footer .about::before {
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #5D5D5D;
+    position: absolute;
+    top: 10px;
+
+}
+
+footer .icon li {
+    margin: 0 5px;
+}
+
+footer .about li {
+    padding: 9px 20px;
+
+}
+
+footer .left {
+    color: #CCCCCC;
+}

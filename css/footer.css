@@ -1,0 +1,53 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* footer */
+footer .links {
+    padding: 30px 0;
+
+}
+
+footer i {
+    color: #5D5D5D;
+    padding: 0 3px;
+}
+
+footer a {
+    transition: all 0.5s;
+}
+
+footer a:hover i {
+    color: red;
+}
+
+footer .about {
+    color: white;
+    position: relative;
+}
+
+footer .about::before {
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #5D5D5D;
+    position: absolute;
+    top: 10px;
+
+}
+
+footer .icon li {
+    margin: 0 5px;
+}
+
+footer .about li {
+    padding: 9px 20px;
+
+}
+
+footer .left {
+    color: #CCCCCC;
+}

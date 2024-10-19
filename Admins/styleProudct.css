@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+img {
+    width: 50%;
+    height: 100vh;
+}
+
+
+h2 {
+    color: #F0C52C;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px;
+}
+
+button {
+    transform: translateX(90%);
+    padding: 3px;
+    border-radius: 10px;
+    background-color: blueviolet;
+
+}
+
+label {
+    transform: translateX(80%);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+
+}
+
+.an {
+    transform: translateX(35%);
+    color: aqua;
+}

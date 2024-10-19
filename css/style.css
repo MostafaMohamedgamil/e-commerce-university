@@ -1,0 +1,184 @@
+::selection{
+    background-color: #DA5656;
+    color: white;
+}
+
+.AboutUs {
+    background-image: url(../img/home-background.webp);
+}
+
+
+.ourServices {
+    background-image: url(../img/background\ keyboard.webp);
+}
+
+h2,
+h3,
+p {
+    color: white !important;
+}
+
+
+
+
+.header {
+    background-color: black;
+    height: 100vh;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.part1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.text {
+    margin-left: 29px;
+}
+
+.text h1 {
+    color: #ff0022 !important;
+    text-shadow: -1px 1px 1px black;
+    font-size: 40px;
+}
+
+.text h1 span {
+    text-shadow: -1px 1px 1px black;
+    color: #ff0022;
+
+}
+
+.span2 {
+    color: rgb(0, 255, 221) !important;
+    font-size: 50px !important;
+}
+
+.image img {
+    width: 100%;
+    padding-right: 5px;
+    border-radius: 30px;
+    transform: translateX(-5%);
+}
+
+
+.btn {
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    font-size: 19px;
+}
+
+.btn:hover {
+    background-color: #AF110B !important;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sec1{
+    background-attachment: fixed;
+} */
+.sec2 {
+    background-color: #000000;
+    /* margin: 20px 0; */
+    padding: 50px 0;
+}
+
+.sec2 img .position-relative {
+    position: relative;
+}
+
+.sec2 .position-relative::after {
+    content: 'MOUSE';
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    /* background-color: blue; */
+    color: black;
+    transform: translate(-200%, 5px);
+}
+
+.sec2 .position-relative2::after {
+    content: 'HEADSET';
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    /* background-color: blue; */
+    color: black;
+    transform: translate(-200%, 5px);
+}
+
+.sec2 .position-relative3::after {
+    content: 'KEYBOARD';
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    /* background-color: blue; */
+    color: black;
+    transform: translate(-230%, 5px);
+}
+
+
+
+.sec2 .position-absolute {
+    transform: translateX(-100%);
+}
+
+
+
+
+
+
+
+
+.sec2 .product {
+    filter: brightness(80%);
+    transition: all 0.5s;
+}
+
+.sec2 .product:hover {
+    filter: brightness(100%);
+}
+
+.sec3 .content {
+    color: white;
+    transform: translateY(60%);
+}
+
+.bg-sec3 {
+    background-image: url(../img/home-background.webp);
+    height: 50vh;
+    background-size: 100% 100%;
+}

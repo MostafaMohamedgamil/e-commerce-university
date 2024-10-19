@@ -1,0 +1,147 @@
+body {
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar-list li a {
+    margin: 0 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.navbar-list li a:hover {
+    color: red;
+}
+
+.color-nav {
+    background-color: #111111;
+}
+
+
+header ul {
+    margin-right: 30px;
+
+}
+
+header li {
+    margin-left: 10px;
+}
+
+
+
+.sec1 {
+    background-image: url(../img/background\ keyboard.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+
+
+.sec1 .content {
+    color: white;
+    transform: translateY(40%);
+}
+
+.sec1 img {
+    transform: translateY(-20%);
+
+}
+
+.sec1 p {
+
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.sec2 {
+    margin: 0 150px;
+    padding: 60px 55px;
+}
+
+.topsec2 {
+    margin-bottom: 40px;
+    transform: translateX(50px);
+}
+
+.sec2 h2 {
+    color: #E60012;
+    position: relative;
+}
+
+.sec2 h2::before {
+    content: url(../img/keyboard/keyboarddescription/logo\ description.webp);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -55px;
+}
+
+.sec2 .card {
+    background-color: transparent;
+}
+
+.sec2 .card-text {
+    color: white;
+
+}
+
+
+/* footer */
+footer .links {
+    padding: 30px 0;
+
+}
+
+footer i {
+    color: #5D5D5D;
+    padding: 0 3px;
+}
+
+footer a {
+    transition: all 0.5s;
+}
+
+footer a:hover i {
+    color: red;
+}
+
+footer .about {
+    color: white;
+    position: relative;
+}
+
+footer .about::before {
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: #5D5D5D;
+    position: absolute;
+    top: 10px;
+
+}
+
+footer .icon li {
+    margin: 0 5px;
+}
+
+footer .about li {
+    padding: 9px 20px;
+
+}
+
+footer .left {
+    color: #CCCCCC;
+}
